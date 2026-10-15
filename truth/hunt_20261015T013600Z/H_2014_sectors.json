@@ -1,0 +1,5098 @@
+[
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 29955.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 110843.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 275845.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 50095.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 233912.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 98879.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 33685.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 106084.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 166967.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 437783.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 162984.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 84228.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 114447.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 14145.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 17557.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 24904.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 12620.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 6854.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 38047.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 22904.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 7263.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 12314.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 27156.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 77653.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 29835.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 11919.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 41368.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 15622.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 40437.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 158121.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 196202.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 63578.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 323087.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 129546.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 47853.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 205782.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 288208.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 595732.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 286282.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 105993.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 154002.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 17586.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 34543.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 64140.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 168407.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 29574.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 164742.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 64279.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 20685.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 56074.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 76949.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 293056.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 97026.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 48764.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 59899.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 5181.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 379061.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 816430.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 1638152.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 497795.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 1782812.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 730980.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 459737.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 966997.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 1830384.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 3390363.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 1599599.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 691570.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 772471.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 135877.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 59029.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 163615.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 175719.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 64241.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 277777.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 112936.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 76045.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 163015.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 309723.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 501435.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 269217.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 109113.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 127730.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 32308.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 5904.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 75435.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 186737.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 43996.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 188254.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 61703.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 39234.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 154909.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 172086.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 453934.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 143921.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 67046.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 67242.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 9152.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 3232.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 23651.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 37530.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 8448.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 52607.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 18749.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 6239.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 39443.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 38691.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 102556.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 35572.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 16744.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 24105.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 3034.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 180.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 8426.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 3767.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 1962.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 15244.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 9416.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 12931.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 17748.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 69307.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 62303.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 28875.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 28660.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 53651.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2947.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 86246.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 476297.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 428705.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 232906.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 1093798.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 403393.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 163227.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 592827.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 940414.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 1728069.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 977175.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 360455.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 394089.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 53395.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 42775.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 232549.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 453042.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 121476.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 501267.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 245428.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 104627.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 257629.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 441394.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 880040.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 383718.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 176207.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 231741.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 49958.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 8135.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 39481.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 17910.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 14013.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 72875.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 35556.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 9641.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 38529.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 57407.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 131309.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 101040.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 22164.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 58051.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 40150.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 35245.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 42386.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 67667.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 18365.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 81306.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 31398.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 12632.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 35501.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 62086.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 150022.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 60190.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 23610.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 38127.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2895.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 46941.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 270684.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 747371.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 179208.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 647289.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 338772.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 120886.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 419089.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 629543.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 1350993.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 530650.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 243956.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 232879.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 15981.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 31193.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 145998.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 555925.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 74023.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 338731.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 147943.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 44390.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 146378.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 214759.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 680391.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 263909.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 115752.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 106479.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 3103.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 39261.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 81260.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 232685.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 44418.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 174608.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 67323.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 28643.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 112741.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 99889.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 364489.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 113613.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 55172.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 49295.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 1620.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 33176.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 74018.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 172489.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 37879.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 148206.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 65908.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 30508.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 77210.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 109065.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 336691.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 106227.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 52336.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 66106.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 16617.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 40931.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 89963.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 257120.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 47687.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 216529.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 107013.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 30858.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 95936.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 130030.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 444873.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 155945.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 71475.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 83886.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 18891.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 87647.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 141421.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 158360.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 50051.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 226915.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 101581.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 30756.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 96280.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 150698.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 460595.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 197228.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 84194.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 112995.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 15376.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 11342.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 32133.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 57794.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 14134.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 81708.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 23047.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 11414.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 37636.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 46865.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 173899.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 54230.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 20288.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 28997.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 1506.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 12314.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 179825.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 141926.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 57853.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 277716.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 121359.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 63488.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 175266.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 414097.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 672175.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 229967.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 140467.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 332357.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 26599.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 9554.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 146503.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 304226.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 76844.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 349883.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 118169.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 75275.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 241651.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 394525.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 906369.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 278149.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 122023.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 136173.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 4957.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 44312.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 168180.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 736739.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 101617.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 482348.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 170232.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 65902.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 223948.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 354763.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 1011219.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 391841.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 175172.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 157248.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 3468.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 43836.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 129625.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 375465.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 77431.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 303049.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 122193.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 51157.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 191084.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 249271.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 670240.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 225094.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 107948.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 96170.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2337.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 32276.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 64833.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 156325.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 30865.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 134238.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 62953.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 15183.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 54648.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 65725.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 287610.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 112644.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 47248.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 67877.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 10690.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 32899.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 138415.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 309827.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 72924.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 322134.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 134201.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 56034.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 180693.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 233670.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 659787.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 251788.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 108853.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 125594.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 21166.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 28139.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 30734.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 20296.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 10787.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 54428.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 21147.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 8561.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 23986.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 31552.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 109530.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 50410.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 17293.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 30345.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 3658.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 27217.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 54788.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 102178.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 24041.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 106305.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 52974.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 18403.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 69134.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 73342.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 221361.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 77810.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 33101.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 42941.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 4994.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 20646.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 68277.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 49691.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 25587.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 143869.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 59813.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 18511.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 67133.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 117994.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 186905.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 317062.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 46593.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 58706.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 9000.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 4285.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 36879.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 86106.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 20053.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 83471.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 26374.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 14219.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 41442.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 62349.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 167124.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 56320.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 23303.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 26565.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 1393.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 12152.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 207131.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 360850.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 143692.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 463720.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 235448.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 116723.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 350725.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 495681.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 968789.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 338536.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 167864.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 185766.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 7423.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 35339.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 53301.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 40337.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 17708.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 96078.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 38078.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 13659.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 37129.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 82833.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 207414.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 92410.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 33640.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 69584.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 8390.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 41847.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 442261.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 594783.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 217753.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 960191.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 427417.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 251644.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 709523.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 934837.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 2432732.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 796131.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 389769.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 429112.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 24025.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 47942.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 240418.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 531517.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 114607.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 488393.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 177887.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 75885.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 251881.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 384351.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 983825.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 392990.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 169793.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 194266.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 85595.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 23108.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 24930.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 25123.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 11739.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 41564.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 19392.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 5026.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 21977.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 22819.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 91745.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 27094.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 14294.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 19195.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 5527.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 40839.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 225580.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 804116.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 143070.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 603771.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 240483.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 89667.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 322812.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 447133.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 1264689.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 466655.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 203479.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 208758.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 9076.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 73963.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 98423.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 167538.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 43707.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 189964.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 82456.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 29196.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 91922.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 121935.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 380789.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 149202.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 70214.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 105775.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 17960.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 52425.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 81241.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 192836.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 49285.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 203327.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 70174.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 30972.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 93341.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 153907.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 383749.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 166162.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 67412.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 81929.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2439.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 68488.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 283943.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 713494.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 161449.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 672454.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 291291.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 102033.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 357420.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 527202.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 1519622.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 477758.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 234727.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 244142.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 5497.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 1388.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 21315.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 56877.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 12066.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 59933.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 18172.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 8528.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 33845.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 43357.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 134884.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 53460.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 19807.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 23172.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2906.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 17137.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 111526.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 273547.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 52627.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 241960.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 89926.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 35629.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 109845.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 171792.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 432448.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 209535.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 82971.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 102813.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 31884.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 18456.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 23949.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 40329.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 12009.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 45323.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 15549.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 7654.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 31209.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 21463.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 99783.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 37665.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 14662.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 23088.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 3066.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 21393.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 143009.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 361614.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 71780.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 330547.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 169867.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 52112.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 150824.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 230320.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 630099.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 248186.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 110785.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 127860.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 15866.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 354226.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 772726.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 1079669.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 338290.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 1308920.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 603817.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 205351.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 731431.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 1140261.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 2493946.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 1008366.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 497825.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 522204.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 96638.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 25410.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 76039.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 139841.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 34100.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 154329.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 58825.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 27857.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 79894.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 138698.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 279822.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 112061.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 49310.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 67268.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 4175.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 6257.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 18381.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 35833.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 6172.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 36217.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 10051.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 5181.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 15428.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 22994.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 87562.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 27063.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 11688.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 16430.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 402.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 32893.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 220779.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 285675.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 75335.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 417962.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 153512.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 80975.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 235883.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 538786.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 833768.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 337712.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 176651.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 366444.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 109486.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 76529.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 175510.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 334576.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 92220.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 364670.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 154092.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 73057.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 161256.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 347993.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 659948.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 277279.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 123900.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 175859.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 50110.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 39059.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 43104.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 60127.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 14762.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 91111.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 39096.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 13053.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 28859.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 53346.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 194330.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 69657.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 27330.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 49299.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 1091.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 48194.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 127233.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 517179.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 75774.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 316406.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 116288.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 47900.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 166852.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 212959.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 646504.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 239500.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 99416.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 97904.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2751.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 32860.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 18871.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 12649.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 5415.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 30437.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 17782.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 4418.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 10857.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 16291.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 64557.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 28657.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 10250.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 19393.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 2756.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "11-21",
+  "Industry Sector": "Agriculture, Forestry, Fishing and Hunting, and Mining",
+  "Total Population": 11325.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "23",
+  "Industry Sector": "Construction",
+  "Total Population": 46243.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "31-33",
+  "Industry Sector": "Manufacturing",
+  "Total Population": 96526.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "42",
+  "Industry Sector": "Wholesale Trade",
+  "Total Population": 29756.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "44-45",
+  "Industry Sector": "Retail Trade",
+  "Total Population": 138146.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "48-49, 22",
+  "Industry Sector": "Transportation & Warehousing, and Utilities",
+  "Total Population": 37231.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "51",
+  "Industry Sector": "Information",
+  "Total Population": 19486.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "52-53",
+  "Industry Sector": "Finance & Insurance, and Real Estate, Rental & Leasing",
+  "Total Population": 55339.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "54-56",
+  "Industry Sector": "Professional, Scientific & Management, and Administrative & Waste Management Services",
+  "Total Population": 85056.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "61-62",
+  "Industry Sector": "Educational Services, Health Care & Social Assistance",
+  "Total Population": 244241.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "71-72",
+  "Industry Sector": "Arts, Entertainment & Recreation and Accommodation & Food Services",
+  "Total Population": 85687.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "81",
+  "Industry Sector": "Other Services, Except Public Administration",
+  "Total Population": 37242.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "92",
+  "Industry Sector": "Public Administration",
+  "Total Population": 101767.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Industry Sector ID": "928110",
+  "Industry Sector": "Active Duty Military",
+  "Total Population": 1025.0
+ }
+]

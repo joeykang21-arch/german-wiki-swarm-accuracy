@@ -1,0 +1,337 @@
+{
+  "annotations": {
+    "subtopic": "Demographics",
+    "dataset_name": "ACS PUMS 5-Year Estimate",
+    "source_name": "Census Bureau",
+    "dataset_link": "https://www.census.gov/programs-surveys/acs/microdata.html",
+    "hidden_measures": "ygbpop RCA,ygopop RCA,ygipop RCA,yocpop RCA,yiopop RCA,ycbpop RCA",
+    "source_description": "The American Community Survey (ACS) Public Use Microdata Sample (PUMS) files are a set of untabulated records about individual people or housing units. The Census Bureau produces the PUMS files so that data users can create custom tables that are not available through pretabulated (or summary) ACS data products.",
+    "table": "PUMS 5",
+    "topic": "Diversity"
+  },
+  "page": {
+    "limit": 0,
+    "offset": 0,
+    "total": 52
+  },
+  "columns": [
+    "State ID",
+    "State",
+    "Year",
+    "Total Population"
+  ],
+  "data": [
+    {
+      "State ID": "04000US01",
+      "State": "Alabama",
+      "Year": 2017,
+      "Total Population": 34631.0
+    },
+    {
+      "State ID": "04000US02",
+      "State": "Alaska",
+      "Year": 2017,
+      "Total Population": 9170.0
+    },
+    {
+      "State ID": "04000US04",
+      "State": "Arizona",
+      "Year": 2017,
+      "Total Population": 61937.0
+    },
+    {
+      "State ID": "04000US05",
+      "State": "Arkansas",
+      "Year": 2017,
+      "Total Population": 20183.0
+    },
+    {
+      "State ID": "04000US06",
+      "State": "California",
+      "Year": 2017,
+      "Total Population": 321568.0
+    },
+    {
+      "State ID": "04000US08",
+      "State": "Colorado",
+      "Year": 2017,
+      "Total Population": 49590.0
+    },
+    {
+      "State ID": "04000US09",
+      "State": "Connecticut",
+      "Year": 2017,
+      "Total Population": 39492.0
+    },
+    {
+      "State ID": "04000US10",
+      "State": "Delaware",
+      "Year": 2017,
+      "Total Population": 8272.0
+    },
+    {
+      "State ID": "04000US11",
+      "State": "District of Columbia",
+      "Year": 2017,
+      "Total Population": 4176.0
+    },
+    {
+      "State ID": "04000US12",
+      "State": "Florida",
+      "Year": 2017,
+      "Total Population": 223326.0
+    },
+    {
+      "State ID": "04000US13",
+      "State": "Georgia",
+      "Year": 2017,
+      "Total Population": 95660.0
+    },
+    {
+      "State ID": "04000US15",
+      "State": "Hawaii",
+      "Year": 2017,
+      "Total Population": 13812.0
+    },
+    {
+      "State ID": "04000US16",
+      "State": "Idaho",
+      "Year": 2017,
+      "Total Population": 13958.0
+    },
+    {
+      "State ID": "04000US17",
+      "State": "Illinois",
+      "Year": 2017,
+      "Total Population": 108989.0
+    },
+    {
+      "State ID": "04000US18",
+      "State": "Indiana",
+      "Year": 2017,
+      "Total Population": 48951.0
+    },
+    {
+      "State ID": "04000US19",
+      "State": "Iowa",
+      "Year": 2017,
+      "Total Population": 45861.0
+    },
+    {
+      "State ID": "04000US20",
+      "State": "Kansas",
+      "Year": 2017,
+      "Total Population": 25350.0
+    },
+    {
+      "State ID": "04000US21",
+      "State": "Kentucky",
+      "Year": 2017,
+      "Total Population": 37643.0
+    },
+    {
+      "State ID": "04000US22",
+      "State": "Louisiana",
+      "Year": 2017,
+      "Total Population": 38465.0
+    },
+    {
+      "State ID": "04000US23",
+      "State": "Maine",
+      "Year": 2017,
+      "Total Population": 20008.0
+    },
+    {
+      "State ID": "04000US24",
+      "State": "Maryland",
+      "Year": 2017,
+      "Total Population": 55663.0
+    },
+    {
+      "State ID": "04000US25",
+      "State": "Massachusetts",
+      "Year": 2017,
+      "Total Population": 84249.0
+    },
+    {
+      "State ID": "04000US26",
+      "State": "Michigan",
+      "Year": 2017,
+      "Total Population": 70444.0
+    },
+    {
+      "State ID": "04000US27",
+      "State": "Minnesota",
+      "Year": 2017,
+      "Total Population": 49412.0
+    },
+    {
+      "State ID": "04000US28",
+      "State": "Mississippi",
+      "Year": 2017,
+      "Total Population": 21869.0
+    },
+    {
+      "State ID": "04000US29",
+      "State": "Missouri",
+      "Year": 2017,
+      "Total Population": 54890.0
+    },
+    {
+      "State ID": "04000US30",
+      "State": "Montana",
+      "Year": 2017,
+      "Total Population": 9079.0
+    },
+    {
+      "State ID": "04000US31",
+      "State": "Nebraska",
+      "Year": 2017,
+      "Total Population": 21734.0
+    },
+    {
+      "State ID": "04000US32",
+      "State": "Nevada",
+      "Year": 2017,
+      "Total Population": 22649.0
+    },
+    {
+      "State ID": "04000US33",
+      "State": "New Hampshire",
+      "Year": 2017,
+      "Total Population": 17650.0
+    },
+    {
+      "State ID": "04000US34",
+      "State": "New Jersey",
+      "Year": 2017,
+      "Total Population": 89568.0
+    },
+    {
+      "State ID": "04000US35",
+      "State": "New Mexico",
+      "Year": 2017,
+      "Total Population": 15848.0
+    },
+    {
+      "State ID": "04000US36",
+      "State": "New York",
+      "Year": 2017,
+      "Total Population": 191943.0
+    },
+    {
+      "State ID": "04000US37",
+      "State": "North Carolina",
+      "Year": 2017,
+      "Total Population": 97582.0
+    },
+    {
+      "State ID": "04000US38",
+      "State": "North Dakota",
+      "Year": 2017,
+      "Total Population": 6868.0
+    },
+    {
+      "State ID": "04000US39",
+      "State": "Ohio",
+      "Year": 2017,
+      "Total Population": 105024.0
+    },
+    {
+      "State ID": "04000US40",
+      "State": "Oklahoma",
+      "Year": 2017,
+      "Total Population": 27681.0
+    },
+    {
+      "State ID": "04000US41",
+      "State": "Oregon",
+      "Year": 2017,
+      "Total Population": 43303.0
+    },
+    {
+      "State ID": "04000US42",
+      "State": "Pennsylvania",
+      "Year": 2017,
+      "Total Population": 138326.0
+    },
+    {
+      "State ID": "04000US44",
+      "State": "Rhode Island",
+      "Year": 2017,
+      "Total Population": 10857.0
+    },
+    {
+      "State ID": "04000US45",
+      "State": "South Carolina",
+      "Year": 2017,
+      "Total Population": 45926.0
+    },
+    {
+      "State ID": "04000US46",
+      "State": "South Dakota",
+      "Year": 2017,
+      "Total Population": 8711.0
+    },
+    {
+      "State ID": "04000US47",
+      "State": "Tennessee",
+      "Year": 2017,
+      "Total Population": 57529.0
+    },
+    {
+      "State ID": "04000US48",
+      "State": "Texas",
+      "Year": 2017,
+      "Total Population": 243549.0
+    },
+    {
+      "State ID": "04000US49",
+      "State": "Utah",
+      "Year": 2017,
+      "Total Population": 25947.0
+    },
+    {
+      "State ID": "04000US50",
+      "State": "Vermont",
+      "Year": 2017,
+      "Total Population": 9415.0
+    },
+    {
+      "State ID": "04000US51",
+      "State": "Virginia",
+      "Year": 2017,
+      "Total Population": 78629.0
+    },
+    {
+      "State ID": "04000US53",
+      "State": "Washington",
+      "Year": 2017,
+      "Total Population": 67692.0
+    },
+    {
+      "State ID": "04000US54",
+      "State": "West Virginia",
+      "Year": 2017,
+      "Total Population": 14721.0
+    },
+    {
+      "State ID": "04000US55",
+      "State": "Wisconsin",
+      "Year": 2017,
+      "Total Population": 56620.0
+    },
+    {
+      "State ID": "04000US56",
+      "State": "Wyoming",
+      "Year": 2017,
+      "Total Population": 4584.0
+    },
+    {
+      "State ID": "04000US72",
+      "State": "Puerto Rico",
+      "Year": 2017,
+      "Total Population": 24515.0
+    }
+  ]
+}

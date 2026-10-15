@@ -1,0 +1,1250 @@
+[
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Year": 2014,
+  "Total Population": 34027.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Year": 2015,
+  "Total Population": 29429.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Year": 2016,
+  "Total Population": 37075.0
+ },
+ {
+  "State ID": "04000US01",
+  "State": "Alabama",
+  "Year": 2017,
+  "Total Population": 36029.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Year": 2014,
+  "Total Population": 11878.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Year": 2015,
+  "Total Population": 9986.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Year": 2016,
+  "Total Population": 8855.0
+ },
+ {
+  "State ID": "04000US02",
+  "State": "Alaska",
+  "Year": 2017,
+  "Total Population": 7157.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Year": 2014,
+  "Total Population": 61626.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Year": 2015,
+  "Total Population": 62249.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Year": 2016,
+  "Total Population": 67138.0
+ },
+ {
+  "State ID": "04000US04",
+  "State": "Arizona",
+  "Year": 2017,
+  "Total Population": 63056.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Year": 2014,
+  "Total Population": 21114.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Year": 2015,
+  "Total Population": 20304.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Year": 2016,
+  "Total Population": 20381.0
+ },
+ {
+  "State ID": "04000US05",
+  "State": "Arkansas",
+  "Year": 2017,
+  "Total Population": 20275.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Year": 2014,
+  "Total Population": 311693.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Year": 2015,
+  "Total Population": 334746.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Year": 2016,
+  "Total Population": 329548.0
+ },
+ {
+  "State ID": "04000US06",
+  "State": "California",
+  "Year": 2017,
+  "Total Population": 316241.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Year": 2014,
+  "Total Population": 54895.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Year": 2015,
+  "Total Population": 47574.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Year": 2016,
+  "Total Population": 47083.0
+ },
+ {
+  "State ID": "04000US08",
+  "State": "Colorado",
+  "Year": 2017,
+  "Total Population": 49033.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Year": 2014,
+  "Total Population": 38741.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Year": 2015,
+  "Total Population": 40055.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Year": 2016,
+  "Total Population": 40500.0
+ },
+ {
+  "State ID": "04000US09",
+  "State": "Connecticut",
+  "Year": 2017,
+  "Total Population": 37671.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Year": 2014,
+  "Total Population": 9382.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Year": 2015,
+  "Total Population": 7324.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Year": 2016,
+  "Total Population": 8840.0
+ },
+ {
+  "State ID": "04000US10",
+  "State": "Delaware",
+  "Year": 2017,
+  "Total Population": 7892.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Year": 2014,
+  "Total Population": 3341.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Year": 2015,
+  "Total Population": 3556.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Year": 2016,
+  "Total Population": 3841.0
+ },
+ {
+  "State ID": "04000US11",
+  "State": "District of Columbia",
+  "Year": 2017,
+  "Total Population": 4438.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Year": 2014,
+  "Total Population": 223881.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Year": 2015,
+  "Total Population": 216386.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Year": 2016,
+  "Total Population": 229640.0
+ },
+ {
+  "State ID": "04000US12",
+  "State": "Florida",
+  "Year": 2017,
+  "Total Population": 233875.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Year": 2014,
+  "Total Population": 97006.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Year": 2015,
+  "Total Population": 91409.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Year": 2016,
+  "Total Population": 102035.0
+ },
+ {
+  "State ID": "04000US13",
+  "State": "Georgia",
+  "Year": 2017,
+  "Total Population": 100757.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Year": 2014,
+  "Total Population": 16214.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Year": 2015,
+  "Total Population": 12584.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Year": 2016,
+  "Total Population": 11662.0
+ },
+ {
+  "State ID": "04000US15",
+  "State": "Hawaii",
+  "Year": 2017,
+  "Total Population": 16183.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Year": 2014,
+  "Total Population": 11679.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Year": 2015,
+  "Total Population": 14787.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Year": 2016,
+  "Total Population": 13434.0
+ },
+ {
+  "State ID": "04000US16",
+  "State": "Idaho",
+  "Year": 2017,
+  "Total Population": 15276.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Year": 2014,
+  "Total Population": 120735.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Year": 2015,
+  "Total Population": 122417.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Year": 2016,
+  "Total Population": 108403.0
+ },
+ {
+  "State ID": "04000US17",
+  "State": "Illinois",
+  "Year": 2017,
+  "Total Population": 94969.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Year": 2014,
+  "Total Population": 52909.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Year": 2015,
+  "Total Population": 50363.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Year": 2016,
+  "Total Population": 48418.0
+ },
+ {
+  "State ID": "04000US18",
+  "State": "Indiana",
+  "Year": 2017,
+  "Total Population": 45628.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Year": 2014,
+  "Total Population": 47684.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Year": 2015,
+  "Total Population": 43372.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Year": 2016,
+  "Total Population": 46737.0
+ },
+ {
+  "State ID": "04000US19",
+  "State": "Iowa",
+  "Year": 2017,
+  "Total Population": 47692.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Year": 2014,
+  "Total Population": 23847.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Year": 2015,
+  "Total Population": 29148.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Year": 2016,
+  "Total Population": 24129.0
+ },
+ {
+  "State ID": "04000US20",
+  "State": "Kansas",
+  "Year": 2017,
+  "Total Population": 27679.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Year": 2014,
+  "Total Population": 32064.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Year": 2015,
+  "Total Population": 43246.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Year": 2016,
+  "Total Population": 36710.0
+ },
+ {
+  "State ID": "04000US21",
+  "State": "Kentucky",
+  "Year": 2017,
+  "Total Population": 39440.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Year": 2014,
+  "Total Population": 44325.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Year": 2015,
+  "Total Population": 36574.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Year": 2016,
+  "Total Population": 38558.0
+ },
+ {
+  "State ID": "04000US22",
+  "State": "Louisiana",
+  "Year": 2017,
+  "Total Population": 37427.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Year": 2014,
+  "Total Population": 18828.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Year": 2015,
+  "Total Population": 21015.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Year": 2016,
+  "Total Population": 19205.0
+ },
+ {
+  "State ID": "04000US23",
+  "State": "Maine",
+  "Year": 2017,
+  "Total Population": 22212.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Year": 2014,
+  "Total Population": 53781.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Year": 2015,
+  "Total Population": 57329.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Year": 2016,
+  "Total Population": 57202.0
+ },
+ {
+  "State ID": "04000US24",
+  "State": "Maryland",
+  "Year": 2017,
+  "Total Population": 54417.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Year": 2014,
+  "Total Population": 84457.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Year": 2015,
+  "Total Population": 89534.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Year": 2016,
+  "Total Population": 89236.0
+ },
+ {
+  "State ID": "04000US25",
+  "State": "Massachusetts",
+  "Year": 2017,
+  "Total Population": 81798.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Year": 2014,
+  "Total Population": 76318.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Year": 2015,
+  "Total Population": 69608.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Year": 2016,
+  "Total Population": 71799.0
+ },
+ {
+  "State ID": "04000US26",
+  "State": "Michigan",
+  "Year": 2017,
+  "Total Population": 70382.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Year": 2014,
+  "Total Population": 43601.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Year": 2015,
+  "Total Population": 46485.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Year": 2016,
+  "Total Population": 57693.0
+ },
+ {
+  "State ID": "04000US27",
+  "State": "Minnesota",
+  "Year": 2017,
+  "Total Population": 50649.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Year": 2014,
+  "Total Population": 21876.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Year": 2015,
+  "Total Population": 20408.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Year": 2016,
+  "Total Population": 25354.0
+ },
+ {
+  "State ID": "04000US28",
+  "State": "Mississippi",
+  "Year": 2017,
+  "Total Population": 15593.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Year": 2014,
+  "Total Population": 53345.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Year": 2015,
+  "Total Population": 50370.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Year": 2016,
+  "Total Population": 56220.0
+ },
+ {
+  "State ID": "04000US29",
+  "State": "Missouri",
+  "Year": 2017,
+  "Total Population": 57505.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Year": 2014,
+  "Total Population": 8943.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Year": 2015,
+  "Total Population": 6585.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Year": 2016,
+  "Total Population": 10733.0
+ },
+ {
+  "State ID": "04000US30",
+  "State": "Montana",
+  "Year": 2017,
+  "Total Population": 10094.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Year": 2014,
+  "Total Population": 19886.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Year": 2015,
+  "Total Population": 24055.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Year": 2016,
+  "Total Population": 22361.0
+ },
+ {
+  "State ID": "04000US31",
+  "State": "Nebraska",
+  "Year": 2017,
+  "Total Population": 21388.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Year": 2014,
+  "Total Population": 23862.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Year": 2015,
+  "Total Population": 20861.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Year": 2016,
+  "Total Population": 23500.0
+ },
+ {
+  "State ID": "04000US32",
+  "State": "Nevada",
+  "Year": 2017,
+  "Total Population": 22850.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Year": 2014,
+  "Total Population": 18733.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Year": 2015,
+  "Total Population": 17001.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Year": 2016,
+  "Total Population": 19166.0
+ },
+ {
+  "State ID": "04000US33",
+  "State": "New Hampshire",
+  "Year": 2017,
+  "Total Population": 18806.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Year": 2014,
+  "Total Population": 86089.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Year": 2015,
+  "Total Population": 96634.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Year": 2016,
+  "Total Population": 88950.0
+ },
+ {
+  "State ID": "04000US34",
+  "State": "New Jersey",
+  "Year": 2017,
+  "Total Population": 85876.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Year": 2014,
+  "Total Population": 15172.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Year": 2015,
+  "Total Population": 17882.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Year": 2016,
+  "Total Population": 15983.0
+ },
+ {
+  "State ID": "04000US35",
+  "State": "New Mexico",
+  "Year": 2017,
+  "Total Population": 11784.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Year": 2014,
+  "Total Population": 206682.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Year": 2015,
+  "Total Population": 186018.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Year": 2016,
+  "Total Population": 199070.0
+ },
+ {
+  "State ID": "04000US36",
+  "State": "New York",
+  "Year": 2017,
+  "Total Population": 184740.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Year": 2014,
+  "Total Population": 101876.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Year": 2015,
+  "Total Population": 94241.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Year": 2016,
+  "Total Population": 97891.0
+ },
+ {
+  "State ID": "04000US37",
+  "State": "North Carolina",
+  "Year": 2017,
+  "Total Population": 105883.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Year": 2014,
+  "Total Population": 6668.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Year": 2015,
+  "Total Population": 7177.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Year": 2016,
+  "Total Population": 5925.0
+ },
+ {
+  "State ID": "04000US38",
+  "State": "North Dakota",
+  "Year": 2017,
+  "Total Population": 7035.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Year": 2014,
+  "Total Population": 112134.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Year": 2015,
+  "Total Population": 102259.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Year": 2016,
+  "Total Population": 99792.0
+ },
+ {
+  "State ID": "04000US39",
+  "State": "Ohio",
+  "Year": 2017,
+  "Total Population": 111126.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Year": 2014,
+  "Total Population": 32976.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Year": 2015,
+  "Total Population": 27417.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Year": 2016,
+  "Total Population": 24447.0
+ },
+ {
+  "State ID": "04000US40",
+  "State": "Oklahoma",
+  "Year": 2017,
+  "Total Population": 26306.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Year": 2014,
+  "Total Population": 37334.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Year": 2015,
+  "Total Population": 41819.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Year": 2016,
+  "Total Population": 46859.0
+ },
+ {
+  "State ID": "04000US41",
+  "State": "Oregon",
+  "Year": 2017,
+  "Total Population": 48580.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Year": 2014,
+  "Total Population": 138417.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Year": 2015,
+  "Total Population": 140810.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Year": 2016,
+  "Total Population": 137294.0
+ },
+ {
+  "State ID": "04000US42",
+  "State": "Pennsylvania",
+  "Year": 2017,
+  "Total Population": 137823.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Year": 2014,
+  "Total Population": 10997.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Year": 2015,
+  "Total Population": 11598.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Year": 2016,
+  "Total Population": 9684.0
+ },
+ {
+  "State ID": "04000US44",
+  "State": "Rhode Island",
+  "Year": 2017,
+  "Total Population": 11245.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Year": 2014,
+  "Total Population": 52648.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Year": 2015,
+  "Total Population": 49612.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Year": 2016,
+  "Total Population": 43184.0
+ },
+ {
+  "State ID": "04000US45",
+  "State": "South Carolina",
+  "Year": 2017,
+  "Total Population": 43926.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Year": 2014,
+  "Total Population": 7862.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Year": 2015,
+  "Total Population": 8780.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Year": 2016,
+  "Total Population": 10831.0
+ },
+ {
+  "State ID": "04000US46",
+  "State": "South Dakota",
+  "Year": 2017,
+  "Total Population": 9393.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Year": 2014,
+  "Total Population": 57766.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Year": 2015,
+  "Total Population": 55423.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Year": 2016,
+  "Total Population": 61936.0
+ },
+ {
+  "State ID": "04000US47",
+  "State": "Tennessee",
+  "Year": 2017,
+  "Total Population": 57914.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Year": 2014,
+  "Total Population": 230832.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Year": 2015,
+  "Total Population": 243614.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Year": 2016,
+  "Total Population": 253884.0
+ },
+ {
+  "State ID": "04000US48",
+  "State": "Texas",
+  "Year": 2017,
+  "Total Population": 261158.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Year": 2014,
+  "Total Population": 23612.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Year": 2015,
+  "Total Population": 25842.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Year": 2016,
+  "Total Population": 29887.0
+ },
+ {
+  "State ID": "04000US49",
+  "State": "Utah",
+  "Year": 2017,
+  "Total Population": 25459.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Year": 2014,
+  "Total Population": 9526.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Year": 2015,
+  "Total Population": 8460.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Year": 2016,
+  "Total Population": 12472.0
+ },
+ {
+  "State ID": "04000US50",
+  "State": "Vermont",
+  "Year": 2017,
+  "Total Population": 9935.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Year": 2014,
+  "Total Population": 73135.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Year": 2015,
+  "Total Population": 78190.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Year": 2016,
+  "Total Population": 78458.0
+ },
+ {
+  "State ID": "04000US51",
+  "State": "Virginia",
+  "Year": 2017,
+  "Total Population": 82645.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Year": 2014,
+  "Total Population": 71413.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Year": 2015,
+  "Total Population": 62027.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Year": 2016,
+  "Total Population": 70866.0
+ },
+ {
+  "State ID": "04000US53",
+  "State": "Washington",
+  "Year": 2017,
+  "Total Population": 68045.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Year": 2014,
+  "Total Population": 17322.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Year": 2015,
+  "Total Population": 15560.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Year": 2016,
+  "Total Population": 11306.0
+ },
+ {
+  "State ID": "04000US54",
+  "State": "West Virginia",
+  "Year": 2017,
+  "Total Population": 16761.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Year": 2014,
+  "Total Population": 57009.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Year": 2015,
+  "Total Population": 58077.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Year": 2016,
+  "Total Population": 56553.0
+ },
+ {
+  "State ID": "04000US55",
+  "State": "Wisconsin",
+  "Year": 2017,
+  "Total Population": 55638.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Year": 2014,
+  "Total Population": 4149.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Year": 2015,
+  "Total Population": 5748.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Year": 2016,
+  "Total Population": 4448.0
+ },
+ {
+  "State ID": "04000US56",
+  "State": "Wyoming",
+  "Year": 2017,
+  "Total Population": 4820.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Year": 2014,
+  "Total Population": 25357.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Year": 2015,
+  "Total Population": 22821.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Year": 2016,
+  "Total Population": 23836.0
+ },
+ {
+  "State ID": "04000US72",
+  "State": "Puerto Rico",
+  "Year": 2017,
+  "Total Population": 23887.0
+ }
+]
