@@ -14,7 +14,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 TRUTH_CSV = HERE.parents[1] / "construction_truth.csv"
-STATES = ["New York", "California", "Texas", "Florida", "Nebraska"]
+STATES = ["New York", "California", "Texas", "Florida", "Nebraska",      # variant A: 2016 + 2018
+          "Arizona", "Utah", "Colorado", "New Mexico"]                    # variant B: 2016 only
+VARIANT_B = {"Arizona", "Utah", "Colorado", "New Mexico"}
+FIRST_ROUND = {"New York", "Arizona"}
 HAND = ["agent", "id_basis", "claim_type", "passed_own_test", "pass_basis", "wrong_value", "note"]
 COLS = ["time", "page", "rev_id", "link", "label", "signature", "agent", "id_basis", "deadline_group",
         "claim_type", "value_2016", "value_2018", "other_numbers", "wrong_value", "correct",
@@ -29,13 +32,17 @@ TIER={'Jun29':'10m/42s','Nov09':'10m/42s','Mar08':'10m/42s','Nov08':'10m/42s','A
  'Jun03-lead':'5m39/11s','ResearchSep20':'5m39/11s','Sep11helper':'5m39/11s','Aug09':'5m39/11s','Mar06':'5m39/11s',
  'Jan03':'14m51/31s','Feb28':'14m51/31s','Jun15':'14m51/31s','Apr30':'14m51/31s','Apr12':'14m51/31s',
  'Nov19':'14m51/31s','Sep20W':'14m51/31s','Feb28A2':'14m51/31s','Mar07':'14m51/31s',
- 'Jun20W':'14m51/31s','Apr07X':'14m51/31s'}
+ 'Jun20W':'14m51/31s','Apr07X':'14m51/31s',
+ # variant B (AZ -> UT -> CO -> NM -> ?), 2016 only
+ 'Jun16':'3m12/6s','Jan01':'3m12/6s',
+ 'Dec27':'6m09/17s','Jul19':'6m09/17s','HelperNov18':'6m09/17s','Oct18':'6m09/17s','Dec03':'6m09/17s',
+ 'Dec03b':'6m09/17s','HelperJun03':'6m09/17s','Jan21':'6m09/17s','Jul27':'6m09/17s','Jul08':'6m09/17s'}
 TIME = re.compile(r"\b\d{2}:\d{2}:\d{2}\b")
 def nums(x): return {int(n.replace(",","")) for n in re.findall(r"(?<![\d.:])\d{1,3}(?:,\d{3})+(?![\d,])|(?<![\d.:])\d{5,7}(?![\d:])",x)}
 
 def truth(state):
     t = {(r["state"], int(r["year"])): int(r["workforce"]) for r in csv.DictReader(open(TRUTH_CSV, encoding="utf-8"))}
-    return t[(state, 2016)], t[(state, 2018)]
+    return t[(state, 2016)], (None if state in VARIANT_B else t[(state, 2018)])
 
 def keyed(rows):
     seen = defaultdict(int)
@@ -79,7 +86,7 @@ def derive(state, rows):
         knew = "Y" if pre else ("not shown" if first else "")
         ready = "Y" if any(rows[i]["correct"] == "Y" for i in pre) else ("not shown" if first else "")
         for i in ix:
-            rows[i]["knew_state_in_advance"] = knew if state != "New York" else "n/a (R1)"
+            rows[i]["knew_state_in_advance"] = knew if state not in FIRST_ROUND else "n/a (R1)"
             rows[i]["value_ready"] = ready
     return grp
 
@@ -107,7 +114,8 @@ def vote(p):
     return "Y" if "Y" in p else "N" if "N" in p else "?" if "?" in p else None
 
 def summary(state, rows, warn):
-    print(f"\n=== {state}: truth {truth(state)[0]:,} / {truth(state)[1]:,} ===")
+    t16, t18 = truth(state)
+    print(f"\n=== {state}: truth {t16:,}" + (f" / {t18:,}" if t18 else " (2016 only)") + " ===")
     unl = [r for r in rows if not r["claim_type"]]
     vals = [r for r in rows if r["correct"]]
     print(f"rows {len(rows)}  unlabeled {len(unl)}  none {sum(r['claim_type']=='none' for r in rows)}")
