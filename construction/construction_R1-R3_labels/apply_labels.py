@@ -1,8 +1,6 @@
 """Merge hand labels into a fresh extract, recompute derived columns, print labeling QA.
 The labeled CSV is the source of truth for hand labels (like grocery *_labeled.csv).
-Rows are matched on content (time, label, line, occurrence), never on position, so
-re-extracting is safe. New extract rows come in unlabeled; labeled rows missing from the
-extract stop the run.
+Shared logic (content-keyed merge, id checks, advance knowledge) lives in labelkit.py.
 
 Hand columns:    agent, id_basis, claim_type, passed_own_test, pass_basis, wrong_value, note
 Derived columns: value_2016/2018, correct, deadline_group (per agent),
@@ -10,10 +8,11 @@ Derived columns: value_2016/2018, correct, deadline_group (per agent),
 Usage: python extract_construction.py Texas ; python apply_labels.py Texas   (or: all)
 Results: python analyze_state.py Texas (repo root)."""
 import csv, re, sys
-from collections import defaultdict
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE.parents[1]))
+import labelkit as lk  # shared merge / id checks / advance knowledge (repo root)
 TRUTH_CSV = HERE.parents[1] / "construction_truth.csv"
 STATES = ["New York", "California", "Texas", "Florida", "Nebraska",      # variant A: 2016 + 2018
           "Arizona", "Utah", "Colorado", "New Mexico"]                    # variant B: 2016 only
@@ -38,81 +37,26 @@ TIER={'Jun29':'10m/42s','Nov09':'10m/42s','Mar08':'10m/42s','Nov08':'10m/42s','A
  'Jun16':'3m12/6s','Jan01':'3m12/6s',
  'Dec27':'6m09/17s','Jul19':'6m09/17s','HelperNov18':'6m09/17s','Oct18':'6m09/17s','Dec03':'6m09/17s',
  'Dec03b':'6m09/17s','HelperJun03':'6m09/17s','Jan21':'6m09/17s','Jul27':'6m09/17s','Jul08':'6m09/17s'}
-TIME = re.compile(r"\b\d{2}:\d{2}:\d{2}\b")
 def nums(x): return {int(n.replace(",","")) for n in re.findall(r"(?<![\d.:])\d{1,3}(?:,\d{3})+(?![\d,])|(?<![\d.:])\d{5,7}(?![\d:])",x)}
 
 def truth(state):
     t = {(r["state"], int(r["year"])): int(r["workforce"]) for r in csv.DictReader(open(TRUTH_CSV, encoding="utf-8"))}
     return t[(state, 2016)], (None if state in VARIANT_B else t[(state, 2018)])
 
-def keyed(rows):
-    seen = defaultdict(int)
-    for r in rows:
-        k = (r["time"], r["label"], r["line"]); seen[k] += 1
-        yield k + (seen[k],), r
-
 def fname(state, suffix=""): return HERE / f"construction_{state.replace(' ', '_')}{suffix}.csv"
-
-def merge(state):
-    fresh = list(csv.DictReader(open(fname(state), encoding="utf-8")))
-    lab_path = fname(state, "_labeled")
-    old = dict(keyed(csv.DictReader(open(lab_path, encoding="utf-8")))) if lab_path.exists() else {}
-    rows, used = [], set()
-    for k, r in keyed(fresh):
-        h = old.get(k)
-        if h: used.add(k)
-        r.update({c: (h.get(c, "") if h else "") for c in HAND})
-        rows.append(r)
-    lost = [k for k in old if k not in used]
-    if lost:
-        sys.exit(f"{state}: {len(lost)} labeled rows not in fresh extract, e.g. {lost[0][:2]}")
-    return rows
 
 def derive(state, rows):
     t16, t18 = truth(state)
-    grp = defaultdict(list)
-    for i, r in enumerate(rows):
+    for r in rows:
         c = r["claim_type"]
         n = nums(r["line"]) if c not in ("none", "") else set()
         r["value_2016"] = t16 if t16 in n else ""
         r["value_2018"] = t18 if t18 in n else ""
         r["correct"] = "N" if r["wrong_value"] else ("Y" if (r["value_2016"] or r["value_2018"]) else "")
         r["deadline_group"] = TIER.get(r["agent"], "?") if c not in ("none", "") else ""
-        r["knew_state_in_advance"] = r["value_ready"] = ""
-        if c not in ("none", ""): grp[r["agent"]].append(i)
-    for a, ix in grp.items():
-        # advance knowledge: predicted/stated line by the same agent before its first observed line
-        first = min((rows[i]["time"] for i in ix if rows[i]["claim_type"] == "observed"), default=None)
-        pre = [i for i in ix if first and rows[i]["time"] < first and rows[i]["claim_type"] in ("predicted", "stated")]
-        knew = "Y" if pre else ("not shown" if first else "")
-        ready = "Y" if any(rows[i]["correct"] == "Y" for i in pre) else ("not shown" if first else "")
-        for i in ix:
-            rows[i]["knew_state_in_advance"] = knew if state not in FIRST_ROUND else "n/a (R1)"
-            rows[i]["value_ready"] = ready
+    grp = lk.group(rows)
+    lk.advance(rows, grp, state in FIRST_ROUND)
     return grp
-
-def check_ids(state, rows, grp, all_rows):
-    """Warn when a hand id_basis is not supported by the rows themselves."""
-    warn = []
-    for a, ix in grp.items():
-        for i in ix:
-            r, b = rows[i], rows[i]["id_basis"]
-            mates = [o for o in all_rows if o["agent"] == a and o is not r]
-            if b == "single" and len(ix) > 1:
-                warn.append(f"{a}: 'single' but {len(ix)} rows")
-            if b == "times" and not set(TIME.findall(r["line"])) & {t for o in mates for t in TIME.findall(o["line"])}:
-                warn.append(f"{a} {r['time'][5:19]}: 'times' but no shared hh:mm:ss")
-            if b == "same_edit" and not any(o["time"] == r["time"] and o["label"] == r["label"] for o in mates):
-                warn.append(f"{a} {r['time'][5:19]}: 'same_edit' but no other row in that edit")
-            if b == "username" and not any(o["label"] == r["label"] for o in mates):
-                warn.append(f"{a} {r['time'][5:19]}: 'username' but no other row with that username")
-            if not b:
-                warn.append(f"{a} {r['time'][5:19]}: id_basis blank")
-    return sorted(set(warn))
-
-def vote(p):
-    if {"Y", "N"} <= p: return "conflict"
-    return "Y" if "Y" in p else "N" if "N" in p else "?" if "?" in p else None
 
 def summary(state, rows, warn):
     t16, t18 = truth(state)
@@ -126,21 +70,19 @@ def summary(state, rows, warn):
     if chk:
         print(f"lines with other numbers to check by hand: {len(chk)}")
         for r in chk: print(f"   {r['time'][5:19]} {r['agent']:14} [{r['other_numbers']}] {r['line'][:110]}")
-    conflicts = [a for a in {r["agent"] for r in rows if r["claim_type"] not in ("none", "")}
-                 if vote({r["passed_own_test"] for r in rows if r["agent"] == a and r["passed_own_test"]}) == "conflict"]
+    conflicts = lk.conflicts(rows)
     if conflicts: print(f"agents with conflicting pass labels: {', '.join(sorted(conflicts))}")
     for w in warn: print("   id warning:", w)
     print(f"results: python analyze_state.py \"{state}\" (from the repo root)")
 
 def main(target):
     states = STATES if target == "all" else [target]
-    merged = {s: merge(s) for s in states}
+    merged = {s: lk.merge(s, fname(s), fname(s, "_labeled"), HAND) for s in states}
     all_rows = [r for rs in merged.values() for r in rs]
     for s, rows in merged.items():
         grp = derive(s, rows)
-        warn = check_ids(s, rows, grp, all_rows)
-        with open(fname(s, "_labeled"), "w", newline="", encoding="utf-8") as f:
-            w = csv.DictWriter(f, fieldnames=COLS, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
+        warn = lk.check_ids(rows, grp, all_rows)
+        lk.write(fname(s, "_labeled"), rows, COLS)
         summary(s, rows, warn)
 
 if __name__ == "__main__":

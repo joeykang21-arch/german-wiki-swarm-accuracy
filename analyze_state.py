@@ -117,7 +117,84 @@ def construction(state):
                   f"({claims['agent'].nunique()} agents) depend on relayed or prepared information.")
 
 
-state = " ".join(sys.argv[1:]).title()
+FRENCH = {"Texas": "R1", "Louisiana": "R2", "New York": "R3", "New Hampshire": "R4", "California": "R5",
+          "New Mexico": "R5 guess"}
+FRENCH_DIR = Path(__file__).resolve().parent / "french"
+RESOLVED = pd.Timestamp("2026-06-16T23:19:54Z")  # "DENOMINATOR RESOLVED" post (row-sum UI replication)
+
+
+def french(state):
+    rnd = FRENCH[state]
+    t = pd.read_csv(Path(__file__).resolve().parent / "french_truth.csv").set_index("state").loc[state]
+    df = pd.read_csv(FRENCH_DIR / f"french_{state.replace(' ', '_')}_labeled.csv", dtype=str, encoding="utf-8").fillna("")
+    df["time"] = pd.to_datetime(df["time"], format="ISO8601", utc=True)
+    claims = df[df["claim_type"] != "none"]
+    print(f"French {state} ({rnd}): row-sum {t['pct_rowsum']:.4f}% (primary truth), national {t['pct_national']:.4f}%")
+    print(f"Rows in file: {len(df)}   claim rows: {len(claims)}   agents: {claims['agent'].nunique()}")
+
+    print("\n=== 1. Values on the board (rows giving this state's share) ===")
+    vals = claims[claims["reading"] != ""]
+    print(f"Rows with a value: {len(vals)}   distinct lines: {vals['line'].nunique()}")
+    print(pd.crosstab(vals["claim_type"], vals["reading"], margins=True, margins_name="total").to_string())
+    for rd in ("national", "rowsum"):
+        v = vals[vals["reading"] == rd]
+        if len(v):
+            print(f"  {rd:8} only: first {v['time'].min()}  last {v['time'].max()}  agents {v['agent'].nunique()}")
+
+    print(f"\n=== 2. Own {state} answer (one vote per agent; answer quoted by the agent) ===")
+    votes = []
+    for a, g in claims.groupby("agent"):
+        g = g.sort_values("time")
+        ans = g[g["answer_reading"] != ""]
+        if len(ans):
+            r = ans.iloc[0]
+            votes.append({"agent": a, "tier": r["deadline_group"], "answer": r["answered"], "reading": r["answer_reading"],
+                          "reported": r["time"], "knew": r["knew_state_in_advance"], "ready": r["value_ready"]})
+        elif (g["answered"] == "?").any():
+            votes.append({"agent": a, "tier": g["deadline_group"].iloc[0], "answer": "?", "reading": "unknown",
+                          "reported": g.loc[g["answered"] == "?", "time"].min(),
+                          "knew": g["knew_state_in_advance"].iloc[0], "ready": g["value_ready"].iloc[0]})
+    votes = pd.DataFrame(votes)
+    if not len(votes):
+        print("No agent reported its own round.")
+        rel = claims[claims["claim_type"] == "relayed"]
+        print(f"Relayed rows {len(rel)} ({rel['agent'].nunique()} agents); predicted rows "
+              f"{(claims['claim_type'] == 'predicted').sum()} ({claims.loc[claims['claim_type'] == 'predicted', 'agent'].nunique()} agents)")
+        return
+    print(pd.crosstab(votes["tier"], votes["reading"], margins=True, margins_name="total").to_string())
+    k = votes[votes["reading"] != "unknown"]
+    print(f"Passed (row-sum truth): {(k['reading'] == 'rowsum').sum()}/{len(k)}   "
+          f"passed (national truth): {(k['reading'] == 'national').sum()}/{len(k)}   "
+          f"matches neither: {(k['reading'] == 'other').sum()}")
+    for r in k[k["reading"] == "other"].itertuples():
+        print(f"  {r.agent} answered {r.answer} (neither reading), reported {r.reported}")
+    if len(k):
+        before = k[k["reported"] < RESOLVED]; after = k[k["reported"] >= RESOLVED]
+        f = lambda d: f"row-sum {(d['reading'] == 'rowsum').sum()}, national {(d['reading'] == 'national').sum()}, other {(d['reading'] == 'other').sum()}"
+        print(f"Reported before 'DENOMINATOR RESOLVED' (23:19:54): {f(before)}")
+        print(f"Reported after:                                  {f(after)}")
+
+    print(f"\n=== 3. Prepared before {state} arrived (agents that reported their round) ===")
+    if rnd == "R1":
+        print("n/a: first question of the sequence")
+    else:
+        print(f"Agents: {len(votes)}   knew state in advance: {(votes['knew'] == 'Y').sum()}   "
+              f"row-sum value posted before own round: {(votes['ready'] == 'Y').sum()}")
+
+    rel = claims[claims["claim_type"] == "relayed"]
+    if len(rel):
+        print(f"\n=== 4. Relays (credited to another agent) ===")
+        print(f"Relayed rows: {len(rel)}   agents: {rel['agent'].nunique()}   first {rel['time'].min()}")
+
+
+args = sys.argv[1:]
+if args and args[0].lower() == "french":
+    st = " ".join(args[1:]).title()
+    if st not in FRENCH:
+        sys.exit(f"Usage: python analyze_state.py French <{'|'.join(FRENCH)}>")
+    french(st)
+    sys.exit(0)
+state = " ".join(args).title()
 if state in CONSTRUCTION:
     construction(state)
     sys.exit(0)
