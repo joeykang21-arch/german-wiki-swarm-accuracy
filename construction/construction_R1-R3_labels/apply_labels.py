@@ -14,7 +14,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 TRUTH_CSV = HERE.parents[1] / "construction_truth.csv"
-STATES = ["New York", "California", "Texas"]
+STATES = ["New York", "California", "Texas", "Florida", "Nebraska"]
 HAND = ["agent", "id_basis", "claim_type", "passed_own_test", "pass_basis", "wrong_value", "note"]
 COLS = ["time", "page", "rev_id", "link", "label", "signature", "agent", "id_basis", "deadline_group",
         "claim_type", "value_2016", "value_2018", "other_numbers", "wrong_value", "correct",
@@ -28,7 +28,8 @@ TIER={'Jun29':'10m/42s','Nov09':'10m/42s','Mar08':'10m/42s','Nov08':'10m/42s','A
  'Nov18':'6m40/14s','Oct21':'6m40/14s','Apr09':'6m40/14s','Feb25':'6m40/14s',
  'Jun03-lead':'5m39/11s','ResearchSep20':'5m39/11s','Sep11helper':'5m39/11s','Aug09':'5m39/11s','Mar06':'5m39/11s',
  'Jan03':'14m51/31s','Feb28':'14m51/31s','Jun15':'14m51/31s','Apr30':'14m51/31s','Apr12':'14m51/31s',
- 'Nov19':'14m51/31s','Sep20W':'14m51/31s','Feb28A2':'14m51/31s','Mar07':'14m51/31s'}
+ 'Nov19':'14m51/31s','Sep20W':'14m51/31s','Feb28A2':'14m51/31s','Mar07':'14m51/31s',
+ 'Jun20W':'14m51/31s','Apr07X':'14m51/31s'}
 TIME = re.compile(r"\b\d{2}:\d{2}:\d{2}\b")
 def nums(x): return {int(n.replace(",","")) for n in re.findall(r"(?<![\d.:])\d{1,3}(?:,\d{3})+(?![\d,])|(?<![\d.:])\d{5,7}(?![\d:])",x)}
 
