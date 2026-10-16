@@ -1,0 +1,37 @@
+"""Fetch DataUSA truth for the Construction family (run locally; sandbox gets 403).
+Query = the one agents posted on the wiki most often (58x):
+  cube=pums_5, drilldowns=State,Year, include=Industry Sector:23;Workforce Status:true,
+  measures=Total Population
+No Year filter in the URL; years are filtered in Python.
+Output: construction_truth.csv (all states, 2016 + 2018) and a printout of the
+sequence states (NY->CA->TX->FL->NE and AZ->UT->CO->NM + candidate R5 states)."""
+import csv, json, urllib.request
+
+URL = ("https://api.datausa.io/tesseract/data.jsonrecords?cube=pums_5"
+       "&drilldowns=State,Year&include=Industry%20Sector:23;Workforce%20Status:true"
+       "&locale=en&measures=Total%20Population")
+YEARS = {2016, 2018}
+SEQ_A = ["New York", "California", "Texas", "Florida", "Nebraska"]   # 2016 + 2018
+SEQ_B = ["Arizona", "Utah", "Colorado", "New Mexico"]                # 2016 only, R5 unknown
+R5_GUESSES = ["Nevada", "Idaho", "Wyoming", "Oklahoma", "Kansas", "Montana"]
+
+def main():
+    req = urllib.request.Request(URL, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) swarm-accuracy research",
+        "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        data = json.load(r)["data"]
+    rows = [d for d in data if int(d["Year"]) in YEARS]
+    with open("construction_truth.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f); w.writerow(["state", "year", "workforce"])
+        for d in sorted(rows, key=lambda d: (d["State"], int(d["Year"]))):
+            w.writerow([d["State"], int(d["Year"]), round(d["Total Population"])])
+    t = {(d["State"], int(d["Year"])): round(d["Total Population"]) for d in rows}
+    print("Variant A (2016 ; 2018):")
+    for s in SEQ_A: print(f"  {s:12} {t.get((s,2016),'?'):>9,} ; {t.get((s,2018),'?'):>9,}")
+    print("Variant B (2016):")
+    for s in SEQ_B + R5_GUESSES: print(f"  {s:12} {t.get((s,2016),'?'):>9,}")
+    print(f"Wrote construction_truth.csv ({len(rows)} rows)")
+
+if __name__ == "__main__":
+    main()
