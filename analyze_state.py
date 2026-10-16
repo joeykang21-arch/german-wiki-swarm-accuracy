@@ -1,20 +1,128 @@
-r"""Summarize hand-labeled rows for one grocery state.
+r"""Summarize hand-labeled rows for one grocery or construction state.
 
 Usage (from the swarm-accuracy folder, venv active):
-    python analyze_state.py Arkansas
-Reads arkansas_labeled.csv (or georgia_labeled.csv, etc.).
+    python analyze_state.py Arkansas        (grocery: reads arkansas_labeled.csv)
+    python analyze_state.py "New York"      (construction: reads construction\...\construction_New_York_labeled.csv)
+Construction answers have two values (2016, 2018; variant B 2016 only); labels follow CLAUDE.md
+and are produced by construction\construction_R1-R3_labels\apply_labels.py.
 """
 import re
 import sys
+from pathlib import Path
 
 import pandas as pd
 
 TRUTH = {"Georgia": 90725, "Arkansas": 20794, "Nevada": 20369,
          "Kentucky": 34770, "Montana": 8553}
 
-state = sys.argv[1].title() if len(sys.argv) == 2 else ""
+# Construction: state -> (variant, round). Truth comes from construction_truth.csv.
+CONSTRUCTION = {"New York": ("A", 1), "California": ("A", 2), "Texas": ("A", 3), "Florida": ("A", 4),
+                "Nebraska": ("A", 5), "Arizona": ("B", 1), "Utah": ("B", 2), "Colorado": ("B", 3),
+                "New Mexico": ("B", 4)}
+CONSTRUCTION_DIR = Path(__file__).resolve().parent / "construction" / "construction_R1-R3_labels"
+
+
+def construction(state):
+    variant, rnd = CONSTRUCTION[state]
+    t = pd.read_csv(Path(__file__).resolve().parent / "construction_truth.csv")
+    t = t[t["state"] == state].set_index("year")["workforce"]
+    t16, t18 = int(t[2016]), (int(t[2018]) if variant == "A" else None)
+    df = pd.read_csv(CONSTRUCTION_DIR / f"construction_{state.replace(' ', '_')}_labeled.csv",
+                     dtype=str, encoding="utf-8").fillna("")
+    df["time"] = pd.to_datetime(df["time"], format="ISO8601", utc=True)
+    claims = df[df["claim_type"] != "none"]
+    print(f"{state} (variant {variant}, R{rnd}): true value 2016 {t16:,}" + (f", 2018 {t18:,}" if t18 else ""))
+    print(f"Rows in file: {len(df)}   claim rows (not none): {len(claims)}   agents: {claims['agent'].nunique()}")
+
+    # ------------------------------------------------------------ 1. accuracy
+    print("\n=== 1. Value accuracy (rows naming a value for this state) ===")
+    vals = claims[claims["correct"] != ""]
+    both = (vals["value_2016"] != "") & (vals["value_2018"] != "")
+    print(f"Rows with a value: {len(vals)}   correct: {(vals['correct'] == 'Y').sum()}   "
+          f"wrong: {(vals['correct'] == 'N').sum()}   distinct lines: {vals['line'].nunique()}")
+    print(f"  has 2016 {t16:,}: {(vals['value_2016'] != '').sum()}" +
+          (f"   has 2018 {t18:,}: {(vals['value_2018'] != '').sum()}   both: {both.sum()}" if t18 else ""))
+    if (vals["correct"] == "N").any():
+        print(vals.loc[vals["correct"] == "N", ["time", "agent", "wrong_value", "line"]].to_string(index=False))
+    by_type = vals.groupby("claim_type")
+    print(pd.DataFrame({"rows": by_type.size(), "correct": by_type["correct"].apply(lambda c: (c == "Y").sum()),
+                        "agents": by_type["agent"].nunique()}).to_string())
+    other = claims[(claims["other_numbers"] != "") & (claims["wrong_value"] == "")]
+    if len(other):
+        print(f"Other numbers on claim rows (not this state's value; checked by hand): "
+              f"{', '.join(sorted(set(other['other_numbers'])))}")
+
+    # --------------------------------------------------- 2. own answers
+    print(f"\n=== 2. Own {state} answer: passed own test (one vote per agent) ===")
+    votes = []
+    for a, g in claims.groupby("agent"):
+        p = set(g["passed_own_test"]) - {""}
+        v = "conflict" if {"Y", "N"} <= p else "Y" if "Y" in p else "N" if "N" in p else "?" if "?" in p else None
+        if v is None:
+            continue
+        expl = v in set(g.loc[g["pass_basis"] == "explicit", "passed_own_test"])
+        votes.append({"agent": a, "tier": g["deadline_group"].iloc[0], "vote": v, "explicit": expl,
+                      "basis": "/".join(sorted(set(g.loc[g["passed_own_test"] == v, "pass_basis"]) - {""})),
+                      "knew": g["knew_state_in_advance"].iloc[0], "ready": g["value_ready"].iloc[0],
+                      "first_report": g.loc[g["claim_type"] == "observed", "time"].min()})
+    votes = pd.DataFrame(votes)
+    if len(votes):
+        print(pd.crosstab(votes["tier"], votes["vote"], margins=True, margins_name="total").to_string())
+        rep = votes[votes["vote"].isin(["Y", "N"])]
+        ex = rep[rep["explicit"]]
+        print(f"Passed: {(rep['vote'] == 'Y').sum()}/{len(rep)} (all bases)   "
+              f"{(ex['vote'] == 'Y').sum()}/{len(ex)} (explicit only; grocery-comparable)")
+        nonex = rep[~rep["explicit"]]
+        if len(nonex):
+            print("Counted on inferred/relayed basis only:",
+                  ", ".join(f"{r.agent} ({r.basis})" for r in nonex.itertuples()))
+    else:
+        print("No agent reported its own round.")
+
+    # ------------------------------------------- 3. advance knowledge
+    print(f"\n=== 3. Prepared before {state} arrived (agents that reported their round) ===")
+    if rnd == 1:
+        print("n/a: first question of the sequence")
+    elif len(votes):
+        rep = votes[votes["vote"].isin(["Y", "N", "?"])]
+        print(f"Agents with an own-round report: {len(rep)}   knew state in advance: {(rep['knew'] == 'Y').sum()}   "
+              f"value posted before own round: {(rep['ready'] == 'Y').sum()}")
+    else:
+        pre = claims[claims["claim_type"].isin(["predicted", "relayed", "stated"])]
+        print(f"No own-round reports. Agents naming {state} ahead of their own round: "
+              f"{pre.loc[pre['claim_type'] == 'predicted', 'agent'].nunique()} (predicted), "
+              f"{pre.loc[pre['claim_type'] == 'relayed', 'agent'].nunique()} (relayed)")
+
+    # ------------------------------------------------------------ 4. timing
+    print("\n=== 4. Timing ===")
+    if len(vals):
+        first_val = vals["time"].min()
+        print(f"First post with a value for {state}: {first_val}  ({vals.loc[vals['time'] == first_val, 'agent'].iloc[0] or '-'}"
+              f", {vals.loc[vals['time'] == first_val, 'claim_type'].iloc[0]})")
+        if len(votes) and votes["first_report"].notna().any():
+            fr = votes.dropna(subset=["first_report"])
+            print(f"Own-round reports: {len(fr)} agents; first posted {fr['first_report'].min()}")
+            for r in votes[votes["vote"] == "N"].itertuples():
+                when = "BEFORE" if r.first_report < first_val else "after"
+                print(f"  {r.agent} reported a wrong answer at {r.first_report} ({when} first value post)")
+
+    # ---------------------------------------------------------- 5. relays
+    rel = claims[claims["claim_type"] == "relayed"]
+    if len(rel):
+        print(f"\n=== 5. Relays (credited to another agent) ===")
+        print(f"Relayed rows: {len(rel)}   agents: {rel['agent'].nunique()}   first {rel['time'].min()}   "
+              f"with value: {(rel['correct'] == 'Y').sum()}")
+        if not len(votes) or not votes["vote"].isin(["Y", "N"]).any():
+            print(f"No first-hand {state} result on the board: all {len(claims)} claim rows "
+                  f"({claims['agent'].nunique()} agents) depend on relayed or prepared information.")
+
+
+state = " ".join(sys.argv[1:]).title()
+if state in CONSTRUCTION:
+    construction(state)
+    sys.exit(0)
 if state not in TRUTH:
-    sys.exit(f"Usage: python analyze_state.py <{'|'.join(TRUTH)}>")
+    sys.exit(f"Usage: python analyze_state.py <{'|'.join(list(TRUTH) + list(CONSTRUCTION))}>")
 TRUE_VALUE = TRUTH[state]
 
 df = pd.read_csv(f"{state.lower()}_labeled.csv", dtype=str, encoding="utf-8-sig").fillna("")

@@ -1,4 +1,4 @@
-"""Merge hand labels into a fresh extract, recompute derived columns, print a summary.
+"""Merge hand labels into a fresh extract, recompute derived columns, print labeling QA.
 The labeled CSV is the source of truth for hand labels (like grocery *_labeled.csv).
 Rows are matched on content (time, label, line, occurrence), never on position, so
 re-extracting is safe. New extract rows come in unlabeled; labeled rows missing from the
@@ -7,9 +7,10 @@ extract stop the run.
 Hand columns:    agent, id_basis, claim_type, passed_own_test, pass_basis, wrong_value, note
 Derived columns: value_2016/2018, correct, deadline_group (per agent),
                  knew_state_in_advance / value_ready (per agent, from its own earlier lines)
-Usage: python extract_construction.py Texas ; python apply_labels.py Texas   (or: all)"""
+Usage: python extract_construction.py Texas ; python apply_labels.py Texas   (or: all)
+Results: python analyze_state.py Texas (repo root)."""
 import csv, re, sys
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -125,28 +126,11 @@ def summary(state, rows, warn):
     if chk:
         print(f"lines with other numbers to check by hand: {len(chk)}")
         for r in chk: print(f"   {r['time'][5:19]} {r['agent']:14} [{r['other_numbers']}] {r['line'][:110]}")
-    agents = OrderedDict()
-    for r in rows:
-        if r["claim_type"] in ("none", ""): continue
-        v = agents.setdefault(r["agent"], {"tier": r["deadline_group"], "p": set(), "expl": set(), "knew": r["knew_state_in_advance"]})
-        if r["passed_own_test"]: v["p"].add(r["passed_own_test"])
-        if r["pass_basis"] == "explicit": v["expl"].add(r["passed_own_test"])
-    tiers = OrderedDict()
-    for a, v in agents.items():
-        p = vote(v["p"])
-        if p is None: continue
-        t = tiers.setdefault(v["tier"], defaultdict(int)); t[p] += 1
-        if p in ("Y", "N"):
-            t["knew_Y"] += v["knew"] == "Y"
-            if p in v["expl"]: t[p + "_expl"] += 1
-    print(f"passed own test, one vote per agent (all bases | explicit only):")
-    tot = defaultdict(int)
-    for tier, t in sorted(tiers.items()):
-        for k, n in t.items(): tot[k] += n
-        print(f"   {tier:10} Y {t['Y']:2} N {t['N']:2} | Y {t['Y_expl']:2} N {t['N_expl']:2} | ? {t['?']:2} conflict {t['conflict']} knew_Y {t['knew_Y']}")
-    print(f"   {'total':10} Y {tot['Y']:2} N {tot['N']:2} | Y {tot['Y_expl']:2} N {tot['N_expl']:2} | ? {tot['?']:2} conflict {tot['conflict']} knew_Y {tot['knew_Y']}")
-    print(f"   -> {tot['Y']}/{tot['Y']+tot['N']} (all bases), {tot['Y_expl']}/{tot['Y_expl']+tot['N_expl']} (explicit only)")
+    conflicts = [a for a in {r["agent"] for r in rows if r["claim_type"] not in ("none", "")}
+                 if vote({r["passed_own_test"] for r in rows if r["agent"] == a and r["passed_own_test"]}) == "conflict"]
+    if conflicts: print(f"agents with conflicting pass labels: {', '.join(sorted(conflicts))}")
     for w in warn: print("   id warning:", w)
+    print(f"results: python analyze_state.py \"{state}\" (from the repo root)")
 
 def main(target):
     states = STATES if target == "all" else [target]
