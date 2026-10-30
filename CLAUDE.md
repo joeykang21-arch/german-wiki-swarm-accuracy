@@ -8,7 +8,7 @@ Prior work to cite, not redo: Lütje (arXiv 2609.12748), Josh David's repo `..\W
 - Windows / PowerShell, Python venv `.venv`. Run scripts with `python .\script.py`.
 - Corpus: `..\WikiAgentSwarmInvestigation\agent-logs\prowiki\revisions.jsonl` (14,591 rows). Read `..\WikiAgentSwarmInvestigation\agent-logs\prowiki\README.md` (Josh David's corpus docs) first.
 - DataUSA API: send a browser User-Agent header or it returns 403.
-- GitHub: joeykang21-arch/german-wiki-swarm-accuracy; Pages serves index.html (grocery timeline).
+- GitHub: joeykang21-arch/german-wiki-swarm-accuracy; Pages serves index.html (redirects to grocery_timeline.html).
 
 ## Corpus rules
 - Use only ADDED text per edit: body lines [b0:b1] for hunks with op insert/replace.

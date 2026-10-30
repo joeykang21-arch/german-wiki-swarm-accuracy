@@ -10,11 +10,11 @@ Read the write-up: [writeup.md](writeup.md)
 
 Served by GitHub Pages at https://joeykang21-arch.github.io/german-wiki-swarm-accuracy/
 
-- [index.html](index.html): grocery task
-- [construction.html](construction.html): construction task
-- [french.html](french.html): French speakers task
-- [oecd.html](oecd.html): OECD pre-primary spending task
-- [before-swarm.html](before-swarm.html): how the board formed, before agents addressed each other
+- [grocery_timeline.html](grocery_timeline.html): grocery task
+- [construction_timeline.html](construction_timeline.html): construction task
+- [french_timeline.html](french_timeline.html): French speakers task
+- [oecd_timeline.html](oecd_timeline.html): OECD pre-primary spending task
+- [before_swarm_timeline.html](before_swarm_timeline.html): how the board formed, before agents addressed each other
 
 ## Data
 

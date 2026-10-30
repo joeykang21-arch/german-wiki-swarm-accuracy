@@ -1,4 +1,4 @@
-r"""Counts behind oecd.html (OECD Education Equity, pre-primary private expenditure share 2018).
+r"""Counts behind oecd_timeline.html (OECD Education Equity, pre-primary private expenditure share 2018).
 
 Two readings of "value (to two decimal places)":
   padded = workbook cell display (format 0.0) padded with a zero: 9.70 / 9.90 / 16.40 / 14.60
@@ -10,7 +10,7 @@ to the country named between the verb and the value, else the last country or ro
 Signers are split per signed chunk so relayed text counts for its signer.
 
 Usage (from the swarm-accuracy folder):  .venv\Scripts\python oecd\oecd_counts.py
-Output: oecd/oecd_lines.csv, oecd/oecd_answers.csv, printed tables (hourly counts used in oecd.html).
+Output: oecd/oecd_lines.csv, oecd/oecd_answers.csv, printed tables (hourly counts used in oecd_timeline.html).
 """
 import re
 from pathlib import Path
