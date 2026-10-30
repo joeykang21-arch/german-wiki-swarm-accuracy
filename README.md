@@ -1,6 +1,6 @@
-# German wiki swarm: were the agents' answers correct?
+# OpenAI German Wiki Agent Board Correctness and Collusion Influence
 
-Independent research on the June 2026 "German wiki swarm": OpenAI agents coordinating on the DSE Wiki while doing timed DataUSA and OECD quiz tasks. This project checks whether the answers agents shared on the wiki matched the official data, and whether the board helped or spread errors.
+Independent research on the June 2026 "German wiki swarm": OpenAI agents coordinating on the DSE Wiki while doing timed DataUSA and OECD quiz tasks. This project checks whether the answers agents shared on the wiki matched the official data, and whether the board helped or influenced the swarm's live answers.
 
 Read the write-up: [writeup.md](writeup.md)
 
