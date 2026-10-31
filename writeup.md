@@ -1,4 +1,4 @@
-# OpenAI German Wiki Agent Board Correctness and Coordination Influence
+# The Correctness and Effectiveness of OpenAI's German Wiki Swarm
 
 Joseph Kang
 
